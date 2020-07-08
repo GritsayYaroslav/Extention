@@ -1,3 +1,1 @@
-# Extention curr
-
-Расширение CHROME
+extention curr
