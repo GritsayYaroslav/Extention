@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+ 
+    "name": "Extention",
+    "version": "1.0",    
+    "icons": {
+            "48": "images/give-money.png"
+    },
+ 
+    "content_scripts": [
+        {
+            "matches": [ "https://*/","http://*/"],
+            "js": [ "content_scripts/end.js"],
+            "run_at": "document_end"
+        }
+    ],
+    "permissions": ["http://*/","https://*/"],
+    "browser_action": {
+          "default_icon": {
+            "48": "images/give-money.png"
+          },
+          "default_title": "Extention",
+          "default_popup": "popup/popup.html"
+    }
+}

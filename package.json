@@ -1,0 +1,15 @@
+{
+  "name": "extenction",
+  "version": "1.0.0",
+  "description": "currency extension",
+  "main": "index.js",
+  "dependencies": {
+    "chart.js": "^2.9.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
